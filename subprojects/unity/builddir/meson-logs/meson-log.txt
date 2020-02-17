@@ -1,0 +1,267 @@
+Build started at 2020-01-28T23:29:28.396724
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: CYGWIN_NT-6.1-7601
+The Meson build system
+Version: 0.52.1
+Source dir: /cygdrive/d/WORKS/unity
+Build dir: /cygdrive/d/WORKS/unity/builddir
+Build type: native build
+Project name: unity
+Project version: undefined
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /cygdrive/d/WORKS/unity/builddir/meson-private/sanitycheckc.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/sanitycheckc.exe -pipe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /cygdrive/d/WORKS/unity/builddir/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 9.2.0 "cc (GCC) 9.2.0")
+C linker for the build machine: GNU ld.bfd 2.31.1
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /cygdrive/d/WORKS/unity/builddir/meson-private/sanitycheckc.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/sanitycheckc.exe -pipe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /cygdrive/d/WORKS/unity/builddir/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 9.2.0 "cc (GCC) 9.2.0")
+C linker for the host machine: GNU ld.bfd 2.31.1
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmpgxns3glq
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmpgxns3glq/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmpgxns3glq/output.obj -pipe -c -O0 -Wformat 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wformat: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmp2y0wvvh4
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmp2y0wvvh4/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmp2y0wvvh4/output.obj -pipe -c -O0 -Waddress 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Waddress: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmp13ptx2a9
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmp13ptx2a9/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmp13ptx2a9/output.obj -pipe -c -O0 -Winit-self 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Winit-self: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmplsuct09g
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmplsuct09g/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmplsuct09g/output.obj -pipe -c -O0 -Wno-multichar -Wmultichar 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-multichar -Wmultichar: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmpg6nndu3n
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmpg6nndu3n/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmpg6nndu3n/output.obj -pipe -c -O0 -Wpointer-arith 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmpmvohhsqg
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmpmvohhsqg/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmpmvohhsqg/output.obj -pipe -c -O0 -Wwrite-strings 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmpxi8snhkr
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmpxi8snhkr/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmpxi8snhkr/output.obj -pipe -c -O0 -Wno-parentheses -Wparentheses 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-parentheses -Wparentheses: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmp7vcgutj9
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmp7vcgutj9/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmp7vcgutj9/output.obj -pipe -c -O0 -Wno-type-limits -Wtype-limits 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-type-limits -Wtype-limits: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmprrm3l3zc
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmprrm3l3zc/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmprrm3l3zc/output.obj -pipe -c -O0 -Wformat-security 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc1: warning: '-Wformat-security' ignored without '-Wformat' [-Wformat-security]
+
+Compiler for C supports arguments -Wformat-security: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmp6a7ic5eu
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmp6a7ic5eu/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmp6a7ic5eu/output.obj -pipe -c -O0 -Wunreachable-code 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wunreachable-code: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmp070txo7j
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmp070txo7j/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmp070txo7j/output.obj -pipe -c -O0 -Waggregate-return 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Waggregate-return: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmpb794hxb5
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmpb794hxb5/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmpb794hxb5/output.obj -pipe -c -O0 -Wformat-nonliteral 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc1: warning: '-Wformat-nonliteral' ignored without '-Wformat' [-Wformat-nonliteral]
+
+Compiler for C supports arguments -Wformat-nonliteral: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmppa0iruon
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmppa0iruon/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmppa0iruon/output.obj -pipe -c -O0 -Wmissing-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmpm1hvk3yf
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmpm1hvk3yf/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmpm1hvk3yf/output.obj -pipe -c -O0 -Wold-style-definition 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmpee6y_80z
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmpee6y_80z/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmpee6y_80z/output.obj -pipe -c -O0 -Wmissing-declarations 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmp_e58f3j2
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmp_e58f3j2/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmp_e58f3j2/output.obj -pipe -c -O0 -Wmissing-include-dirs 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmp_a02zyc7
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmp_a02zyc7/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmp_a02zyc7/output.obj -pipe -c -O0 -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
+Running compile:
+Working directory:  /cygdrive/d/WORKS/unity/builddir/meson-private/tmpylo57_yd
+Command line:  cc /cygdrive/d/WORKS/unity/builddir/meson-private/tmpylo57_yd/testfile.c -o /cygdrive/d/WORKS/unity/builddir/meson-private/tmpylo57_yd/output.obj -pipe -c -O0 -Wdeclaration-after-statement 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wdeclaration-after-statement: YES 
+Build targets in project: 1
+Found ninja-1.9.0 at /usr/bin/ninja

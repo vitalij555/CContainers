@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "/cygdrive/d/WORKS/unity/builddir",
+    "command": "cc -Isrc/25a6634@@unity@sta -Isrc -I../src -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -Werror -std=c11 -g -Wformat -Waddress -Winit-self -Wno-multichar -Wpointer-arith -Wwrite-strings -Wno-parentheses -Wno-type-limits -Wformat-security -Wunreachable-code -Waggregate-return -Wformat-nonliteral -Wmissing-prototypes -Wold-style-definition -Wmissing-declarations -Wmissing-include-dirs -Wno-unused-parameter -Wdeclaration-after-statement -MD -MQ 'src/25a6634@@unity@sta/unity.c.o' -MF 'src/25a6634@@unity@sta/unity.c.o.d' -o 'src/25a6634@@unity@sta/unity.c.o' -c ../src/unity.c",
+    "file": "../src/unity.c",
+    "output": "src/25a6634@@unity@sta/unity.c.o"
+  }
+]
