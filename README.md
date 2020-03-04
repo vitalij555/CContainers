@@ -14,8 +14,8 @@ HList list = listCreate(sizeof(int));
 listPush(&list, &data);
 listPush(&list, &data2);
 
-dataOut = listGetFirst(&listWithIntegers); 
-dataOut2 = listGetNext(&listWithIntegers);  
+dataOut = listGetFirst(&list); 
+dataOut2 = listGetNext(&list);  
 
 memoryFree((void**)&dataOut);   // Frees our first integer
 memoryFree((void**)&dataOut2);  // Frees our second integer
