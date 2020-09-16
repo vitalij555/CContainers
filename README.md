@@ -70,7 +70,31 @@ TEST(List, motivation2CodeTest_Ok)
  listFree(&list); // Frees the list and all elements left in it (if any)
 }
 ```  
-  
+
+Will output:
+
+```Bash
+####################
+
+Country:Lithuania
+City:Vilnius
+Street:Zirmunu
+Nr.: 525-15  09127
+####################
+
+Country:Czech Republic
+City:Praha
+Street:Resslova
+Nr.: 1939-7  2
+####################
+
+Country:Belgium
+City:Brussels
+Street:Atomiumplein
+Nr.: 1-1  B-1020
+```
+
+
 ## Supports following conatiners:
 
 List.
