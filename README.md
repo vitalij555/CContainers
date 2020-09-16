@@ -7,8 +7,8 @@ Object Oriented-like containers written in pure C and suitable for simple soluti
 ```C
 int data = 1000;
 int data2 = 2000;
-int dataOut = 0;
-int dataOut2 = 0;
+int* dataOut = 0;
+int* dataOut2 = 0;
 HList list = listCreate(sizeof(int));
 
 listPush(&list, &data);
@@ -28,8 +28,28 @@ List.
 
 
 ## How to build and run tests
-TODO
 
+### Installation 
 
+#### For Linux
+install python
+create virtual env and switch into it
+install ninja
+install meson
 
+#### For Windows
+install python
+create virtual env and switch into it
+install cygwin
+install CMake
+install ninja
+install meson
+
+#### Build
+meson builddir
+cd builddir
+meson compile
+
+#### Testing
+./CContainersTests.exe
 
