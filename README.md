@@ -45,14 +45,14 @@ TEST(List, motivation2CodeTest_Ok)
   Address address3 = {"Belgium", "Brussels", "Atomiumplein", 1, 1, "B-1020"};
 
 
-	HList list = listCreate(sizeof(Address));
+  HList list = listCreate(sizeof(Address));
 
-	listPush(&list, &address1);
-	listPush(&list, &address2);
+  listPush(&list, &address1);
+  listPush(&list, &address2);
   listPush(&list, &address3);
 
   Address* addressOut = NULL;
-	addressOut = listGetFirst(&list);
+  addressOut = listGetFirst(&list);
   while (addressOut)
   {
     printf("\n####################\n\nCountry:%s\nCity:%s\nStreet:%s\nNr.: %d-%d  %s", 
