@@ -31,24 +31,40 @@ List.
 
 ### Installation 
 
+
 #### For Linux
-install python
-create virtual env and switch into it
-install ninja
-install meson
+
+##### install python
+
+##### create virtual env and switch into it
+
+##### install ninja
+
+##### install meson
+
 
 #### For Windows
-install python
-create virtual env and switch into it
-install cygwin
-install CMake
-install ninja
-install meson
+
+##### install python
+
+##### create virtual env and switch into it
+
+##### install cygwin
+
+##### install CMake
+
+##### install ninja
+
+##### install meson
+
 
 #### Build
-meson builddir
-cd builddir
-meson compile
+
+##### meson builddir
+
+##### cd builddir
+
+##### meson compile
 
 #### Testing
 ./CContainersTests.exe
