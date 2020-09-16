@@ -29,9 +29,9 @@ List.
 
 ## How to build and run tests
 
-### Installation 
+1. ### Installation 
 
-    #### For Linux
+    1. #### For Linux
 
         1. ##### install python
 
@@ -40,7 +40,6 @@ List.
         1. ##### install ninja
 
         1. ##### install meson
-
 
     1. #### For Windows
 
@@ -56,15 +55,15 @@ List.
 
         1. ##### install meson
 
+1. ### Building
 
-    1. #### Build
+    1. ##### meson builddir
 
-        1. ##### meson builddir
+    1. ##### cd builddir
 
-        1. ##### cd builddir
+    1. ##### meson compile
 
-        1. ##### meson compile
-
-    1. #### Testing
+1. #### Testing
+    
 ./CContainersTests.exe
 
