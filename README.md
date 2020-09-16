@@ -64,7 +64,7 @@ TEST(List, motivation2CodeTest_Ok)
               addressOut->zip);
 
     memoryFree((void**)&addressOut); 
-    addressOut = listGetFirst(&list);
+    addressOut = listGetNext(&list);
   }
 
  listFree(&list); // Frees the list and all elements left in it (if any)
