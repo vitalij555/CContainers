@@ -27,48 +27,45 @@ Another example. This time with struct:
 ```C
 #define MEDIUM_STRING 64
 #define LONG_STRING 128
-// Test without assertions - just to be sure it compiles and prints results
-TEST(List, motivation2CodeTest_Ok)
+
+typedef struct 
 {
-    typedef struct 
-    {
-       char country[MEDIUM_STRING];
-       char city[MEDIUM_STRING];
-       char street[LONG_STRING];   
-       int houseNumber;
-       int flat; 
-       char zip[6];        
-    }Address;
+   char country[MEDIUM_STRING];
+   char city[MEDIUM_STRING];
+   char street[LONG_STRING];   
+   int houseNumber;
+   int flat; 
+   char zip[6];        
+}Address;
 
-  Address address1 = {"Lithuania", "Vilnius", "Zirmunu", 525, 15, "09127"};
-  Address address2 = {"Czech Republic", "Praha", "Resslova", 1939, 7, "2"};
-  Address address3 = {"Belgium", "Brussels", "Atomiumplein", 1, 1, "B-1020"};
+Address address1 = {"Lithuania", "Vilnius", "Zirmunu", 525, 15, "09127"};
+Address address2 = {"Czech Republic", "Praha", "Resslova", 1939, 7, "2"};
+Address address3 = {"Belgium", "Brussels", "Atomiumplein", 1, 1, "B-1020"};
 
 
-  HList list = listCreate(sizeof(Address));
+HList list = listCreate(sizeof(Address));
 
-  listPush(&list, &address1);
-  listPush(&list, &address2);
-  listPush(&list, &address3);
+listPush(&list, &address1);
+listPush(&list, &address2);
+listPush(&list, &address3);
 
-  Address* addressOut = NULL;
-  addressOut = listGetFirst(&list);
-  while (addressOut)
-  {
-    printf("\n####################\n\nCountry:%s\nCity:%s\nStreet:%s\nNr.: %d-%d  %s", 
-              addressOut->country, 
-              addressOut->city, 
-              addressOut->street, 
-              addressOut->houseNumber, 
-              addressOut->flat, 
-              addressOut->zip);
+Address* addressOut = NULL;
+addressOut = listGetFirst(&list);
+while (addressOut)
+{
+  printf("\n####################\n\nCountry:%s\nCity:%s\nStreet:%s\nNr.: %d-%d  %s", 
+            addressOut->country, 
+            addressOut->city, 
+            addressOut->street, 
+            addressOut->houseNumber, 
+            addressOut->flat, 
+            addressOut->zip);
 
-    memoryFree((void**)&addressOut); 
-    addressOut = listGetNext(&list);
-  }
-
- listFree(&list); // Frees the list and all elements left in it (if any)
+  memoryFree((void**)&addressOut); 
+  addressOut = listGetNext(&list);
 }
+
+listFree(&list); // Frees the list and all elements left in it (if any)
 ```  
 
 Will output:
